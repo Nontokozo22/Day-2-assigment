@@ -52,12 +52,24 @@ Disadvantages:
 * Make it difficult for others to understand the development process.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
-Commits 
-After creating a new repository and adding a file (e.g HTML, CSS JavaScript) to your project yu need to commit that you added the files then selcet "Push to Origin".
+Commits are like a snapshot of the changes made historically and includes a reference to previous commit in the branch history. 
+They make it easier for developers to track the changes made to the code over time, collaborate with other developers and roll back previous code if necessary.
+After creating a new repository and adding a file (e.g HTML, CSS JavaScript) to your project yu need to commit that you added the files then select "Push to Origin".
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+Branching means you can diverge from the main line of development and continue to do work without messing with the main line. Collaborters can diverge and work on the different aspects of the project simultaneously without affecting the main line.
+
+Creating a branch
+From the main branch use the git branch command to create a new branch. Replace "new_branch" with a descriptive name of your branch then use "git checkout new_branch" to switch to ne branch.
+
+Merge a branch
+Use "git checkout" to switch to the branch you want to merge into.
+Use "git merge" and specify the name of the other branch to bring into thids branch.
+
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase. 
+
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
